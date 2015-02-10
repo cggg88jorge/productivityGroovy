@@ -1,0 +1,8 @@
+.classpath
+.project
+target
+*.db
+.gradle/
+build/
+.gradletasknamecache
+groovyExample.log
