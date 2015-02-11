@@ -1,4 +1,4 @@
-package com.mymapmanager
+package com.makingdevs
 
 class SimpleQueryTest extends GroovyTestCase {
 
