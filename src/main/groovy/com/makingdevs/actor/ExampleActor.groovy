@@ -16,8 +16,6 @@ class ExampleActor extends DefaultActor{
     loop{
       react { username -> 
         try {
-          log.debug "debug"
-          log.error "error"
           def user = userService.getUser(username)
           if (user)
             log.debug "Se encontro el usuario ${username}"
